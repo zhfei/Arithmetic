@@ -11,6 +11,7 @@
 #include "SelectSort.h"
 #include "InsertSort.h"
 #include "shellSort.h"
+#include "QuickSort.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,7 +29,10 @@ int main(int argc, const char * argv[]) {
 //    insertSort(array, 10);
     
     //希尔排序
-    shellSort(array, 10);
+//    shellSort(array, 10);
+    
+    //快速排序
+    quickSort(array, 10);
 
     
     for (int i = 0; i < 10; i++) {
