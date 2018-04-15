@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91DB90932063CFF400F0B124 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91DB90922063CFF400F0B124 /* main.c */; };
-		91DB909B2063D05B00F0B124 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91DB90992063D05B00F0B124 /* BubblingSort.c */; };
-		91DB909E2063D87500F0B124 /* SelectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91DB909C2063D87500F0B124 /* SelectSort.c */; };
-		91DB90A12063E29500F0B124 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91DB909F2063E29500F0B124 /* InsertSort.c */; };
-		91DB90A42063EEBB00F0B124 /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91DB90A22063EEBB00F0B124 /* ShellSort.c */; };
+		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		91DB908D2063CFF400F0B124 /* CopyFiles */ = {
+		91D0F2732083146000109EA0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,20 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		91DB908F2063CFF400F0B124 /* ArithmeticDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArithmeticDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		91DB90922063CFF400F0B124 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		91DB90992063D05B00F0B124 /* BubblingSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubblingSort.c; sourceTree = "<group>"; };
-		91DB909A2063D05B00F0B124 /* BubblingSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblingSort.h; sourceTree = "<group>"; };
-		91DB909C2063D87500F0B124 /* SelectSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SelectSort.c; sourceTree = "<group>"; };
-		91DB909D2063D87500F0B124 /* SelectSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
-		91DB909F2063E29500F0B124 /* InsertSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InsertSort.c; sourceTree = "<group>"; };
-		91DB90A02063E29500F0B124 /* InsertSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
-		91DB90A22063EEBB00F0B124 /* ShellSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
-		91DB90A32063EEBB00F0B124 /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D0F2782083146000109EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91DB908C2063CFF400F0B124 /* Frameworks */ = {
+		91D0F2722083146000109EA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,108 +38,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		91DB90862063CFF400F0B124 = {
+		91D0F26C2083146000109EA0 = {
 			isa = PBXGroup;
 			children = (
-				91DB90912063CFF400F0B124 /* ArithmeticDemo */,
-				91DB90902063CFF400F0B124 /* Products */,
+				91D0F2772083146000109EA0 /* SortAlgorithm */,
+				91D0F2762083146000109EA0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		91DB90902063CFF400F0B124 /* Products */ = {
+		91D0F2762083146000109EA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91DB908F2063CFF400F0B124 /* ArithmeticDemo */,
+				91D0F2752083146000109EA0 /* SortAlgorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91DB90912063CFF400F0B124 /* ArithmeticDemo */ = {
+		91D0F2772083146000109EA0 /* SortAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				91DB90922063CFF400F0B124 /* main.c */,
-				91DB90992063D05B00F0B124 /* BubblingSort.c */,
-				91DB909A2063D05B00F0B124 /* BubblingSort.h */,
-				91DB909C2063D87500F0B124 /* SelectSort.c */,
-				91DB909D2063D87500F0B124 /* SelectSort.h */,
-				91DB909F2063E29500F0B124 /* InsertSort.c */,
-				91DB90A02063E29500F0B124 /* InsertSort.h */,
-				91DB90A22063EEBB00F0B124 /* ShellSort.c */,
-				91DB90A32063EEBB00F0B124 /* ShellSort.h */,
+				91D0F2782083146000109EA0 /* main.c */,
 			);
-			path = ArithmeticDemo;
+			path = SortAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91DB908E2063CFF400F0B124 /* ArithmeticDemo */ = {
+		91D0F2742083146000109EA0 /* SortAlgorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91DB90962063CFF400F0B124 /* Build configuration list for PBXNativeTarget "ArithmeticDemo" */;
+			buildConfigurationList = 91D0F27C2083146000109EA0 /* Build configuration list for PBXNativeTarget "SortAlgorithm" */;
 			buildPhases = (
-				91DB908B2063CFF400F0B124 /* Sources */,
-				91DB908C2063CFF400F0B124 /* Frameworks */,
-				91DB908D2063CFF400F0B124 /* CopyFiles */,
+				91D0F2712083146000109EA0 /* Sources */,
+				91D0F2722083146000109EA0 /* Frameworks */,
+				91D0F2732083146000109EA0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ArithmeticDemo;
-			productName = ArithmeticDemo;
-			productReference = 91DB908F2063CFF400F0B124 /* ArithmeticDemo */;
+			name = SortAlgorithm;
+			productName = SortAlgorithm;
+			productReference = 91D0F2752083146000109EA0 /* SortAlgorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		91DB90872063CFF400F0B124 /* Project object */ = {
+		91D0F26D2083146000109EA0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "周飞";
 				TargetAttributes = {
-					91DB908E2063CFF400F0B124 = {
+					91D0F2742083146000109EA0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = C7UNH8293N;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 91DB908A2063CFF400F0B124 /* Build configuration list for PBXProject "ArithmeticDemo" */;
+			buildConfigurationList = 91D0F2702083146000109EA0 /* Build configuration list for PBXProject "SortAlgorithm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 91DB90862063CFF400F0B124;
-			productRefGroup = 91DB90902063CFF400F0B124 /* Products */;
+			mainGroup = 91D0F26C2083146000109EA0;
+			productRefGroup = 91D0F2762083146000109EA0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91DB908E2063CFF400F0B124 /* ArithmeticDemo */,
+				91D0F2742083146000109EA0 /* SortAlgorithm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		91DB908B2063CFF400F0B124 /* Sources */ = {
+		91D0F2712083146000109EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DB909B2063D05B00F0B124 /* BubblingSort.c in Sources */,
-				91DB909E2063D87500F0B124 /* SelectSort.c in Sources */,
-				91DB90A42063EEBB00F0B124 /* ShellSort.c in Sources */,
-				91DB90A12063E29500F0B124 /* InsertSort.c in Sources */,
-				91DB90932063CFF400F0B124 /* main.c in Sources */,
+				91D0F2792083146000109EA0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		91DB90942063CFF400F0B124 /* Debug */ = {
+		91D0F27A2083146000109EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -198,7 +174,7 @@
 			};
 			name = Debug;
 		};
-		91DB90952063CFF400F0B124 /* Release */ = {
+		91D0F27B2083146000109EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +214,7 @@
 			};
 			name = Release;
 		};
-		91DB90972063CFF400F0B124 /* Debug */ = {
+		91D0F27D2083146000109EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C7UNH8293N;
@@ -246,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		91DB90982063CFF400F0B124 /* Release */ = {
+		91D0F27E2083146000109EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C7UNH8293N;
@@ -257,24 +233,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91DB908A2063CFF400F0B124 /* Build configuration list for PBXProject "ArithmeticDemo" */ = {
+		91D0F2702083146000109EA0 /* Build configuration list for PBXProject "SortAlgorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91DB90942063CFF400F0B124 /* Debug */,
-				91DB90952063CFF400F0B124 /* Release */,
+				91D0F27A2083146000109EA0 /* Debug */,
+				91D0F27B2083146000109EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91DB90962063CFF400F0B124 /* Build configuration list for PBXNativeTarget "ArithmeticDemo" */ = {
+		91D0F27C2083146000109EA0 /* Build configuration list for PBXNativeTarget "SortAlgorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91DB90972063CFF400F0B124 /* Debug */,
-				91DB90982063CFF400F0B124 /* Release */,
+				91D0F27D2083146000109EA0 /* Debug */,
+				91D0F27E2083146000109EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 91DB90872063CFF400F0B124 /* Project object */;
+	rootObject = 91D0F26D2083146000109EA0 /* Project object */;
 }
