@@ -7,26 +7,31 @@
 //
 
 #include "ShellSort.h"
-//希尔排序主要思想是先分组，然后在多个组上，按照相同的下标逐个进行排序
+//希尔排序主要思想是先对整个数组进行动态分段，分段间隔逐渐缩小，直到间隔向临。
+//然后将不同分组间，对应开始位置的元素看作一个数组，然后对这个数组进行插入排序。
 //可以改造多种基本排序
 void shellSort(int array[], int length) {
 
     
-    int gap = length;
+    int gap = length;//10
     
     do {
         
-        gap = gap/3 + 1;
+        gap = gap/3 + 1;//4
         
         for (int i = gap; i < length; i++) {
             
             int j, temp;
             
+            for (int inde = 0; inde < length; inde++) {
+                printf("%d-----i=:%d\n",array[inde],i);
+            }
+            printf("我是分割线\n\n\n");
+        
+            
             if (array[i] < array[i - gap]) {
-                
                 temp = array[i];
-                int index = i - gap;
-                for (j = index; array[j] > temp; j-=gap) {
+                for (j = i - gap; j>=0 && array[j] > temp; j-=gap) {
                     array[j + gap] = array[j];
                 }
                 array[j+gap] = temp;
