@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9106642E208ACA9800F5F449 /* MargeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9106642C208ACA9800F5F449 /* MargeSort.c */; };
 		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 		91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F27F2083174B00109EA0 /* BubblingSort.c */; };
 		91D0F2882083174B00109EA0 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2812083174B00109EA0 /* InsertSort.c */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9106642C208ACA9800F5F449 /* MargeSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MargeSort.c; sourceTree = "<group>"; };
+		9106642D208ACA9800F5F449 /* MargeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MargeSort.h; sourceTree = "<group>"; };
 		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D0F2782083146000109EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		91D0F27F2083174B00109EA0 /* BubblingSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubblingSort.c; sourceTree = "<group>"; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9106642B208ACA6D00F5F449 /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				9106642C208ACA9800F5F449 /* MargeSort.c */,
+				9106642D208ACA9800F5F449 /* MargeSort.h */,
+			);
+			name = "归并排序";
+			sourceTree = "<group>";
+		};
 		91D0F26C2083146000109EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +84,7 @@
 		91D0F2772083146000109EA0 /* SortAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				9106642B208ACA6D00F5F449 /* 归并排序 */,
 				91D0F28F2083577900109EA0 /* 快速排序 */,
 				91D0F28E2083177500109EA0 /* 希尔排序 */,
 				91D0F28D2083176E00109EA0 /* 插入排序 */,
@@ -186,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */,
+				9106642E208ACA9800F5F449 /* MargeSort.c in Sources */,
 				91D0F292208357AC00109EA0 /* QuickSort.c in Sources */,
 				91D0F2892083174B00109EA0 /* SelectSort.c in Sources */,
 				91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */,
