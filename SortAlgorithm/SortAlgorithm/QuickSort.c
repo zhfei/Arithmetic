@@ -42,7 +42,7 @@ int Position(int k[], int low, int heigh) {
     }
     
 
-    return point;
+    return low;
 }
 
 
@@ -62,16 +62,16 @@ void quickSort(int array[], int length) {
 
     printf("快速排序开始.....\n");
     
-    printf("排序前数组\n");
-    for (int i = 0; i< length; i++) {
-        printf("%d,",array[i]);
-    }
+//    printf("排序前数组\n");
+//    for (int i = 0; i< length; i++) {
+//        printf("%d,",array[i]);
+//    }
     
     QSort(array, 0, length-1);
     
-    printf("排序后数组\n");
-    for (int i = 0; i< length; i++) {
-        printf("%d,",array[i]);
-    }
+//    printf("排序后数组\n");
+//    for (int i = 0; i< length; i++) {
+//        printf("%d,",array[i]);
+//    }
 }
 

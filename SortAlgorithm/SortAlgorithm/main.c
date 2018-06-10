@@ -33,10 +33,10 @@ int main(int argc, const char * argv[]) {
 //    shellSort(array, 10);
     
     //快速排序
-//    quickSort(array, 10);
+    quickSort(array, 10);
     
     //归并排序
-    margeSort(array, 10);
+//    margeSort(array, 10);
 
     
     for (int i = 0; i < 10; i++) {
