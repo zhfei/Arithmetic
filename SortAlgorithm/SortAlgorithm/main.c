@@ -13,11 +13,15 @@
 #include "shellSort.h"
 #include "QuickSort.h"
 #include "MargeSort.h"
+#include "BinarySearch.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
     int array[10] = {3,5,6,1,2,8,0,9,4,7};
+    
+    int tar = binarySearch(array, 2);
+    printf("二分查找，查询目标的位置为:%d\n",tar);
   
     //冒泡排序
 //    bubblingSort1(array, 10);
@@ -44,6 +48,7 @@ int main(int argc, const char * argv[]) {
     }
     
     
-    printf("Hello, World!\n");
+
+    
     return 0;
 }
