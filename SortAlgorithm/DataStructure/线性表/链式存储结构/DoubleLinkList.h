@@ -10,5 +10,6 @@
 #define DoubleLinkList_h
 
 #include <stdio.h>
+void testDLinkList() ;
 
 #endif /* DoubleLinkList_h */

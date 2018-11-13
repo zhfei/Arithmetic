@@ -16,6 +16,7 @@
 #include "BinarySearch.h"
 
 #include "LinkList.h"
+#include "DoubleLinkList.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -45,7 +46,8 @@ int main(int argc, const char * argv[]) {
 //    margeSort(array, 10);
     
 //    createLinkList(10);
-    testLinkList();
+//    testLinkList();
+    testDLinkList();
 
     
     for (int i = 0; i < 10; i++) {
