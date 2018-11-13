@@ -15,10 +15,7 @@
 #define TRUE 1
 #define FALUSE 0
 
-#define LinkList(name)  int name[20]
-
 typedef int Status;
-
 
 
 /**
@@ -27,14 +24,48 @@ typedef int Status;
  @param list 单向链表
  @return 状态
  */
-Status getElement(LinkList(list),int i, ElemteType *e) {
+Status getElement(pNode L,int index, ElemteType *e) {
     
+    pNode p = L->next;
+    int num = 1;
+    while (p && num < index) {
+        num++;
+        p = p->next;
+    }
+    
+    if (num < index) {
+        printf("不存在。。");
+    }
+    
+    *e = p->data;
+    
+    return 1;
+}
+
+Status insertElement(pNode L,int index, ElemteType e) {
+    
+    pNode p = L->next;
+    int num = 2;//获得要插入位置的前一个节点
+    while (p && num < index) {
+        num++;
+        p = p->next;
+    }
+    
+    if (num < index) {
+        printf("不存在。。");
+    } else {
+        printf("插入前，index节点:%d,的值：%d\n",index,p->next->data);
+        pNode newNode = (pNode)malloc(sizeof(Node));
+        newNode->data = e;
+        newNode->next = p->next;
+        p->next = newNode;
+        printf("插入后，index节点:%d,的值：%d\n",index,p->next->data);
+    }
     
     
     
     return 1;
 }
-
 
 pNode createLinkList(int count) {
     pNode header = (pNode)malloc(sizeof(Node));
@@ -60,4 +91,28 @@ pNode createLinkList(int count) {
     }
     
     return header;
+}
+
+void testLinkList() {
+    pNode p = createLinkList(10);
+    
+//    ElemteType e;
+//    while (1) {
+//        int count;
+//        printf("请输入信息：");
+//        scanf("%d",&count);
+//        getElement(p, count, &e);
+//        printf("结果: %d\n",e);
+//    }
+    
+    
+    while (1) {
+        int index;
+        int value;
+        printf("请输入信息（位置，数据）：");
+        scanf("%d\n%d",&index,&value);
+        insertElement(p, index, value);
+        printf("结果: %d\n",value);
+    }
+    
 }

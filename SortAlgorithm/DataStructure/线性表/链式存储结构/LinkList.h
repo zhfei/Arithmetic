@@ -19,5 +19,6 @@ typedef struct Node {
 #include <stdio.h>
 
 pNode createLinkList(int count);
+void testLinkList();
 
 #endif /* LinkList_h */
