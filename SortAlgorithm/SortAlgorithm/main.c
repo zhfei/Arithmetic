@@ -15,6 +15,8 @@
 #include "MargeSort.h"
 #include "BinarySearch.h"
 
+#include "LinkList.h"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -41,6 +43,8 @@ int main(int argc, const char * argv[]) {
     
     //归并排序
 //    margeSort(array, 10);
+    
+    createLinkList(10);
 
     
     for (int i = 0; i < 10; i++) {
