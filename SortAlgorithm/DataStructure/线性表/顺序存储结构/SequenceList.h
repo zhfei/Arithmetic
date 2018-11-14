@@ -10,5 +10,5 @@
 #define SequenceList_h
 
 #include <stdio.h>
-
+void testSeqList();
 #endif /* SequenceList_h */

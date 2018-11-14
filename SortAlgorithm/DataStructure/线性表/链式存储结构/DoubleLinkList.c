@@ -44,8 +44,6 @@ pDLNode createDLinkList(int count) {
         p = p->next;
 
     }
-    
-    
     return header;
 }
 

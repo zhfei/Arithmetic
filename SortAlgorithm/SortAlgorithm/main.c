@@ -15,6 +15,7 @@
 #include "MargeSort.h"
 #include "BinarySearch.h"
 
+#include "SequenceList.h"
 #include "LinkList.h"
 #include "DoubleLinkList.h"
 
@@ -45,9 +46,11 @@ int main(int argc, const char * argv[]) {
     //归并排序
 //    margeSort(array, 10);
     
+    
+    testSeqList();
 //    createLinkList(10);
 //    testLinkList();
-    testDLinkList();
+//    testDLinkList();
 
     
     for (int i = 0; i < 10; i++) {
