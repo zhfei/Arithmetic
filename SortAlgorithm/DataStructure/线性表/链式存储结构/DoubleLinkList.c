@@ -20,9 +20,6 @@ typedef struct DLNode {
     ElemType data;
 } DLNode, *pDLNode;
 
-void insertDoubleLinkList(LinkList(list), DLNode node, int i) {
-    
-}
 
 pDLNode createDLinkList(int count) {
     pDLNode header = (pDLNode)malloc(sizeof(DLNode));
@@ -49,8 +46,31 @@ pDLNode createDLinkList(int count) {
     }
     
     
-    return tailer;
+    return header;
 }
+
+void insertDoubleLinkList(pDLNode L, DLNode node, int i) {
+    pDLNode header = L;
+    pDLNode tailer = header->next;
+    int count = 0;
+    while (tailer && count < i) {
+        count++;
+        tailer = tailer->next;
+    }
+    
+    if (count < i) {
+        printf("元素不存在...");
+    }
+    
+    pDLNode nodee = (pDLNode)malloc(sizeof(DLNode));
+    nodee->data = node.data;
+    
+    tailer->next->prior = nodee;
+    nodee->next = tailer->next;
+    nodee->prior = tailer;
+    tailer->next = nodee;
+}
+
 
 void testDLinkList() {
     createDLinkList(10);
