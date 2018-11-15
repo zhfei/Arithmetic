@@ -21,12 +21,14 @@ typedef struct Stack {
 
 pStack createStack(){
     pStack p = malloc(sizeof(Stack));
+    p->top = -1;
     return p;
 }
 
 State push(pStack p, ElemteType e) {
     
-    
+    pStack p0 = createStack();
+    p0->data[p0->top++] = e;    
     
     return 1;
 }
