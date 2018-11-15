@@ -28,7 +28,15 @@ pStack createStack(){
 State push(pStack p, ElemteType e) {
     
     pStack p0 = createStack();
-    p0->data[p0->top++] = e;    
+    p0->data[p0->top++] = e;
+    
+    return 1;
+}
+
+State pop(pStack p, int index, ElemteType *e) {
+    
+    pStack p0 = createStack();
+    *e = p0->data[p0->top--];
     
     return 1;
 }
