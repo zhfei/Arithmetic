@@ -11,6 +11,7 @@
 		914A2B64219B153400BFDD9F /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B63219B153400BFDD9F /* LinkList.c */; };
 		914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B66219B198A00BFDD9F /* DoubleLinkList.c */; };
 		915359392199B8FE0018DEE5 /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 915359382199B8FE0018DEE5 /* SequenceList.c */; };
+		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 		91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F27F2083174B00109EA0 /* BubblingSort.c */; };
 		91D0F2882083174B00109EA0 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2812083174B00109EA0 /* InsertSort.c */; };
@@ -18,6 +19,7 @@
 		91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2852083174B00109EA0 /* ShellSort.c */; };
 		91D0F292208357AC00109EA0 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F290208357AC00109EA0 /* QuickSort.c */; };
 		91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D1839B215CB02F00240AE2 /* BinarySearch.c */; };
+		91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E9597D219DC10300FE3EEA /* StaticLinkList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,8 @@
 		914A2B66219B198A00BFDD9F /* DoubleLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DoubleLinkList.c; sourceTree = "<group>"; };
 		915359372199B8FE0018DEE5 /* SequenceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequenceList.h; sourceTree = "<group>"; };
 		915359382199B8FE0018DEE5 /* SequenceList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SequenceList.c; sourceTree = "<group>"; };
+		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D0F2782083146000109EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		91D0F27F2083174B00109EA0 /* BubblingSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubblingSort.c; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		91D0F291208357AC00109EA0 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		91D1839B215CB02F00240AE2 /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
 		91D1839C215CB02F00240AE2 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		91E9597C219DC10300FE3EEA /* StaticLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLinkList.h; sourceTree = "<group>"; };
+		91E9597D219DC10300FE3EEA /* StaticLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticLinkList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		915359342199B76F0018DEE5 /* 线性表 */ = {
 			isa = PBXGroup;
 			children = (
+				91938081219DC78500194F71 /* 队列 */,
+				91938082219DC78500194F71 /* 栈 */,
 				915359352199B76F0018DEE5 /* 顺序存储结构 */,
 				915359362199B76F0018DEE5 /* 链式存储结构 */,
 			);
@@ -110,8 +118,26 @@
 				914A2B63219B153400BFDD9F /* LinkList.c */,
 				914A2B65219B198A00BFDD9F /* DoubleLinkList.h */,
 				914A2B66219B198A00BFDD9F /* DoubleLinkList.c */,
+				91E9597C219DC10300FE3EEA /* StaticLinkList.h */,
+				91E9597D219DC10300FE3EEA /* StaticLinkList.c */,
 			);
 			path = "链式存储结构";
+			sourceTree = "<group>";
+		};
+		91938081219DC78500194F71 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		91938082219DC78500194F71 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				91938083219DC8A300194F71 /* Stack.h */,
+				91938084219DC8A300194F71 /* Stack.c */,
+			);
+			path = "栈";
 			sourceTree = "<group>";
 		};
 		91D0F26C2083146000109EA0 = {
@@ -261,6 +287,7 @@
 				91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */,
 				9106642E208ACA9800F5F449 /* MargeSort.c in Sources */,
 				91D0F292208357AC00109EA0 /* QuickSort.c in Sources */,
+				91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */,
 				915359392199B8FE0018DEE5 /* SequenceList.c in Sources */,
 				91D0F2892083174B00109EA0 /* SelectSort.c in Sources */,
 				91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */,
@@ -268,6 +295,7 @@
 				91D0F2792083146000109EA0 /* main.c in Sources */,
 				91D0F2882083174B00109EA0 /* InsertSort.c in Sources */,
 				914A2B64219B153400BFDD9F /* LinkList.c in Sources */,
+				91938085219DC8A300194F71 /* Stack.c in Sources */,
 				914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
