@@ -15,6 +15,7 @@
 		9170E7D4219FF9F600E41D8A /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D3219FF9F600E41D8A /* LinkStack.c */; };
 		9170E7D821A0023A00E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D721A0023A00E41D8A /* Queue.c */; };
 		9170E7DB21A0121800E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7DA21A0121800E41D8A /* QueueList.c */; };
+		9170E7DF21A0403D00E41D8A /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7DE21A0403D00E41D8A /* Tree.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 		91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F27F2083174B00109EA0 /* BubblingSort.c */; };
@@ -55,6 +56,8 @@
 		9170E7D721A0023A00E41D8A /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Queue.c; path = "DataStructure/线性表/栈/Queue.c"; sourceTree = SOURCE_ROOT; };
 		9170E7D921A0121800E41D8A /* QueueList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QueueList.h; path = "DataStructure/线性表/栈/QueueList.h"; sourceTree = SOURCE_ROOT; };
 		9170E7DA21A0121800E41D8A /* QueueList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = QueueList.c; path = "DataStructure/线性表/栈/QueueList.c"; sourceTree = SOURCE_ROOT; };
+		9170E7DD21A0403D00E41D8A /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		9170E7DE21A0403D00E41D8A /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,7 @@
 		915359332199B66A0018DEE5 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				9170E7DC21A0403100E41D8A /* 树 */,
 				915359342199B76F0018DEE5 /* 线性表 */,
 			);
 			path = DataStructure;
@@ -145,6 +149,15 @@
 				9170E7DA21A0121800E41D8A /* QueueList.c */,
 			);
 			path = "队列";
+			sourceTree = "<group>";
+		};
+		9170E7DC21A0403100E41D8A /* 树 */ = {
+			isa = PBXGroup;
+			children = (
+				9170E7DD21A0403D00E41D8A /* Tree.h */,
+				9170E7DE21A0403D00E41D8A /* Tree.c */,
+			);
+			path = "树";
 			sourceTree = "<group>";
 		};
 		91938082219DC78500194F71 /* 栈 */ = {
@@ -317,6 +330,7 @@
 				91D0F2792083146000109EA0 /* main.c in Sources */,
 				91D0F2882083174B00109EA0 /* InsertSort.c in Sources */,
 				914A2B64219B153400BFDD9F /* LinkList.c in Sources */,
+				9170E7DF21A0403D00E41D8A /* Tree.c in Sources */,
 				91938085219DC8A300194F71 /* Stack.c in Sources */,
 				9170E7D821A0023A00E41D8A /* Queue.c in Sources */,
 				914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */,
