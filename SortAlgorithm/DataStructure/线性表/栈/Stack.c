@@ -23,7 +23,7 @@ pStack createStack(){
     return p;
 }
 
-State push(pStack p, ElemteType e) {
+State pushStack(pStack p, ElemteType e) {
     if (p->top == MAXSIZE - 1) {
         return -1;
     }
@@ -33,7 +33,7 @@ State push(pStack p, ElemteType e) {
     return 1;
 }
 
-State pop(pStack p, int index, ElemteType *e) {
+State popStack(pStack p, int index, ElemteType *e) {
     if (p->top == -1) {
         return -1;
     }

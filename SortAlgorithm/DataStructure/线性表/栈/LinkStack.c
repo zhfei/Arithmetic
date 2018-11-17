@@ -28,7 +28,7 @@ pLinkStack createLinkStack() {
     return p;
 }
 
-State push(pLinkStack p, LSElemteType e) {
+State pushLinkStack(pLinkStack p, LSElemteType e) {
     pLSNode n = (pLSNode)malloc(sizeof(LSNode));
     n->data = e;
     n->next = NULL;
@@ -44,7 +44,7 @@ State push(pLinkStack p, LSElemteType e) {
     return 1;
 }
 
-State pop(pLinkStack p, LSElemteType *e) {
+State popLinkStack(pLinkStack p, LSElemteType *e) {
     if (p->top == NULL) {
         return -1;
     } else {

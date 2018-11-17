@@ -25,7 +25,7 @@ pSqDouStack createSqDouStack() {
     return p;
 }
 
-State push(pSqDouStack p, SqDouElemteType e1, SqDouElemteType e2) {
+State pushDouStack(pSqDouStack p, SqDouElemteType e1, SqDouElemteType e2) {
     if (p->top1+1 == p->top2) {
         //已经满
         return -2;
@@ -42,7 +42,7 @@ State push(pSqDouStack p, SqDouElemteType e1, SqDouElemteType e2) {
     return 1;
 }
 
-State pop(pSqDouStack p, SqDouElemteType *e1, SqDouElemteType *e2) {
+State popDouStack(pSqDouStack p, SqDouElemteType *e1, SqDouElemteType *e2) {
     if (p->top1+1 - p->top2 > 0) {
         //结构报错
         return -2;
