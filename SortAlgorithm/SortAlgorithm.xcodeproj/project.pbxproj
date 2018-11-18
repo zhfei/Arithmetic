@@ -13,9 +13,10 @@
 		915359392199B8FE0018DEE5 /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 915359382199B8FE0018DEE5 /* SequenceList.c */; };
 		9170E7D1219FF40300E41D8A /* SqDoubleStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D0219FF40300E41D8A /* SqDoubleStack.c */; };
 		9170E7D4219FF9F600E41D8A /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D3219FF9F600E41D8A /* LinkStack.c */; };
-		9170E7D821A0023A00E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D721A0023A00E41D8A /* Queue.c */; };
-		9170E7DB21A0121800E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7DA21A0121800E41D8A /* QueueList.c */; };
 		9170E7DF21A0403D00E41D8A /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7DE21A0403D00E41D8A /* Tree.c */; };
+		9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7EF21A17ABA00E41D8A /* BinaryTree.c */; };
+		9170E7F621A17FB500E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F321A17FB500E41D8A /* Queue.c */; };
+		9170E7F721A17FB500E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F421A17FB500E41D8A /* QueueList.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 		91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F27F2083174B00109EA0 /* BubblingSort.c */; };
@@ -52,12 +53,14 @@
 		9170E7D0219FF40300E41D8A /* SqDoubleStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SqDoubleStack.c; sourceTree = "<group>"; };
 		9170E7D2219FF9F600E41D8A /* LinkStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkStack.h; sourceTree = "<group>"; };
 		9170E7D3219FF9F600E41D8A /* LinkStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkStack.c; sourceTree = "<group>"; };
-		9170E7D621A0023A00E41D8A /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = "DataStructure/线性表/栈/Queue.h"; sourceTree = SOURCE_ROOT; };
-		9170E7D721A0023A00E41D8A /* Queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Queue.c; path = "DataStructure/线性表/栈/Queue.c"; sourceTree = SOURCE_ROOT; };
-		9170E7D921A0121800E41D8A /* QueueList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QueueList.h; path = "DataStructure/线性表/栈/QueueList.h"; sourceTree = SOURCE_ROOT; };
-		9170E7DA21A0121800E41D8A /* QueueList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = QueueList.c; path = "DataStructure/线性表/栈/QueueList.c"; sourceTree = SOURCE_ROOT; };
 		9170E7DD21A0403D00E41D8A /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		9170E7DE21A0403D00E41D8A /* Tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
+		9170E7EE21A17ABA00E41D8A /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		9170E7EF21A17ABA00E41D8A /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
+		9170E7F221A17FB500E41D8A /* QueueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueList.h; sourceTree = "<group>"; };
+		9170E7F321A17FB500E41D8A /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		9170E7F421A17FB500E41D8A /* QueueList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QueueList.c; sourceTree = "<group>"; };
+		9170E7F521A17FB500E41D8A /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,7 +113,7 @@
 		915359342199B76F0018DEE5 /* 线性表 */ = {
 			isa = PBXGroup;
 			children = (
-				9170E7D521A0021E00E41D8A /* 队列 */,
+				9170E7F121A17FB500E41D8A /* 队列 */,
 				91938082219DC78500194F71 /* 栈 */,
 				915359352199B76F0018DEE5 /* 顺序存储结构 */,
 				915359362199B76F0018DEE5 /* 链式存储结构 */,
@@ -140,24 +143,26 @@
 			path = "链式存储结构";
 			sourceTree = "<group>";
 		};
-		9170E7D521A0021E00E41D8A /* 队列 */ = {
-			isa = PBXGroup;
-			children = (
-				9170E7D621A0023A00E41D8A /* Queue.h */,
-				9170E7D721A0023A00E41D8A /* Queue.c */,
-				9170E7D921A0121800E41D8A /* QueueList.h */,
-				9170E7DA21A0121800E41D8A /* QueueList.c */,
-			);
-			path = "队列";
-			sourceTree = "<group>";
-		};
 		9170E7DC21A0403100E41D8A /* 树 */ = {
 			isa = PBXGroup;
 			children = (
 				9170E7DD21A0403D00E41D8A /* Tree.h */,
 				9170E7DE21A0403D00E41D8A /* Tree.c */,
+				9170E7EE21A17ABA00E41D8A /* BinaryTree.h */,
+				9170E7EF21A17ABA00E41D8A /* BinaryTree.c */,
 			);
 			path = "树";
+			sourceTree = "<group>";
+		};
+		9170E7F121A17FB500E41D8A /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				9170E7F521A17FB500E41D8A /* Queue.h */,
+				9170E7F321A17FB500E41D8A /* Queue.c */,
+				9170E7F221A17FB500E41D8A /* QueueList.h */,
+				9170E7F421A17FB500E41D8A /* QueueList.c */,
+			);
+			path = "队列";
 			sourceTree = "<group>";
 		};
 		91938082219DC78500194F71 /* 栈 */ = {
@@ -324,15 +329,16 @@
 				915359392199B8FE0018DEE5 /* SequenceList.c in Sources */,
 				91D0F2892083174B00109EA0 /* SelectSort.c in Sources */,
 				91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */,
-				9170E7DB21A0121800E41D8A /* QueueList.c in Sources */,
 				91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */,
+				9170E7F721A17FB500E41D8A /* QueueList.c in Sources */,
+				9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */,
+				9170E7F621A17FB500E41D8A /* Queue.c in Sources */,
 				9170E7D4219FF9F600E41D8A /* LinkStack.c in Sources */,
 				91D0F2792083146000109EA0 /* main.c in Sources */,
 				91D0F2882083174B00109EA0 /* InsertSort.c in Sources */,
 				914A2B64219B153400BFDD9F /* LinkList.c in Sources */,
 				9170E7DF21A0403D00E41D8A /* Tree.c in Sources */,
 				91938085219DC8A300194F71 /* Stack.c in Sources */,
-				9170E7D821A0023A00E41D8A /* Queue.c in Sources */,
 				914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */,
 				9170E7D1219FF40300E41D8A /* SqDoubleStack.c in Sources */,
 			);
