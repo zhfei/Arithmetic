@@ -26,6 +26,7 @@
 		91D0F292208357AC00109EA0 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F290208357AC00109EA0 /* QuickSort.c */; };
 		91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D1839B215CB02F00240AE2 /* BinarySearch.c */; };
 		91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E9597D219DC10300FE3EEA /* StaticLinkList.c */; };
+		91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F4B3D321A5B5CF00A41095 /* BinThreadTree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,8 @@
 		91D1839C215CB02F00240AE2 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		91E9597C219DC10300FE3EEA /* StaticLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticLinkList.h; sourceTree = "<group>"; };
 		91E9597D219DC10300FE3EEA /* StaticLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticLinkList.c; sourceTree = "<group>"; };
+		91F4B3D221A5B5CF00A41095 /* BinThreadTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinThreadTree.h; sourceTree = "<group>"; };
+		91F4B3D321A5B5CF00A41095 /* BinThreadTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinThreadTree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				9170E7DE21A0403D00E41D8A /* Tree.c */,
 				9170E7EE21A17ABA00E41D8A /* BinaryTree.h */,
 				9170E7EF21A17ABA00E41D8A /* BinaryTree.c */,
+				91F4B3D221A5B5CF00A41095 /* BinThreadTree.h */,
+				91F4B3D321A5B5CF00A41095 /* BinThreadTree.c */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -331,6 +336,7 @@
 				91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */,
 				91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */,
 				9170E7F721A17FB500E41D8A /* QueueList.c in Sources */,
+				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
 				9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */,
 				9170E7F621A17FB500E41D8A /* Queue.c in Sources */,
 				9170E7D4219FF9F600E41D8A /* LinkStack.c in Sources */,
