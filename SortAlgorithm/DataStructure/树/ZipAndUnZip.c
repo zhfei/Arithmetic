@@ -21,7 +21,7 @@
 //    printf("...");
 //}
 //
-//  但是按照分数的分布概率，优秀：30%，及格：40%，极优秀：15%，及格：15%
+//  但是按照分数的分布概率，优秀：30%，中等：40%，及格：15%，极优秀：10%，不及格：5%
 //  如果先判断优秀，及格，再判断极优秀，及格，则可以提高很多效率
 //  赫夫曼树就是根据概率来生成二叉树，进行判断
 
@@ -37,15 +37,16 @@
 #define Score 60
 
 void pan() {
-    if (Score > 90) {
-        printf("极优秀");
-    } else if (Score > 80) {
-        printf("极优秀");
-    } else if (Score > 60) {
-        printf("及格");
-    } else if (Score > 0) {
+
+    if (Score < 60) {
         printf("不及格");
-    } else {
-        printf("...");
+    } else if (Score < 70) {
+        printf("及格");
+    } else if (Score < 80) {
+        printf("中等");
+    } else if (Score < 90) {
+        printf("优秀");
+    } else if (Score < 100) {
+        printf("极优秀");
     }
 }
