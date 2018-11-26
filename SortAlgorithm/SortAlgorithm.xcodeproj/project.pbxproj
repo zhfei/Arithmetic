@@ -20,6 +20,7 @@
 		9170E7F621A17FB500E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F321A17FB500E41D8A /* Queue.c */; };
 		9170E7F721A17FB500E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F421A17FB500E41D8A /* QueueList.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
+		91A5723421AC4681006EB8CB /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5723321AC4681006EB8CB /* HeapSort.c */; };
 		91D0F2792083146000109EA0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2782083146000109EA0 /* main.c */; };
 		91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F27F2083174B00109EA0 /* BubblingSort.c */; };
 		91D0F2882083174B00109EA0 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D0F2812083174B00109EA0 /* InsertSort.c */; };
@@ -70,6 +71,8 @@
 		9170E7F521A17FB500E41D8A /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		91A5723221AC4681006EB8CB /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		91A5723321AC4681006EB8CB /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
 		91D0F2752083146000109EA0 /* SortAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D0F2782083146000109EA0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		91D0F27F2083174B00109EA0 /* BubblingSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BubblingSort.c; sourceTree = "<group>"; };
@@ -193,6 +196,15 @@
 			path = "栈";
 			sourceTree = "<group>";
 		};
+		91A5723121AC4630006EB8CB /* 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				91A5723221AC4681006EB8CB /* HeapSort.h */,
+				91A5723321AC4681006EB8CB /* HeapSort.c */,
+			);
+			name = "堆排序";
+			sourceTree = "<group>";
+		};
 		91D0F26C2083146000109EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +225,7 @@
 		91D0F2772083146000109EA0 /* SortAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				91A5723121AC4630006EB8CB /* 堆排序 */,
 				91D1839A215CAFF800240AE2 /* 二分查找 */,
 				9106642B208ACA6D00F5F449 /* 归并排序 */,
 				91D0F28F2083577900109EA0 /* 快速排序 */,
@@ -337,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A5723421AC4681006EB8CB /* HeapSort.c in Sources */,
 				91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */,
 				9106642E208ACA9800F5F449 /* MargeSort.c in Sources */,
 				9168F18421A7017100A7DF0D /* ZipAndUnZip.c in Sources */,
