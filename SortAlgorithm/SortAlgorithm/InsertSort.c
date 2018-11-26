@@ -31,3 +31,38 @@ void insertSort(int array[], int length) {
         
     }
 }
+
+
+//插入排序
+void insertSort2(int list[], int length) {
+    
+    int tmep,position;
+    for (int i = 1; i < length-1; i++) {
+        tmep = list[i];
+        if (tmep < list[i-1]) {
+            for (int j = i; j > 0; j--) {
+                if (list[j] < list[j-1]) {
+                    list[j] = list[j-1];
+                } else {
+                    list[j-1] = tmep;
+                    break;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
