@@ -19,6 +19,30 @@
 #include "LinkList.h"
 #include "DoubleLinkList.h"
 
+
+void baseType(char arrr[]) {
+    
+    char a;//一个字节
+    char *b;//变量b保存一个Char型指针，一个地址总线的宽度（跟CPU位数有关）
+    char **c;//变量c保存一个Char型指针的指针，一个地址总线的宽度（跟CPU位数有关）
+    
+    char arr[] = "abc";//arr对象占用的内存
+    char *arrP = "abc";//指向常量字符串的指针arrP，的大小
+    printf("a:%d--b:%d--c:%d--arr:%d--arrP:%d\n",sizeof(a),sizeof(b),sizeof(c),sizeof(arr),sizeof(arrP));
+    
+    
+    //传过来的数组是指针
+    //自己定义的数组是对象
+    printf("arrr:%d--&arr:%d\n",sizeof(arrr),sizeof(arr[0]));
+    
+    int num = 10;//四子节
+    long longNum = 10;//8子节
+    float ff = 10;//四子节
+    double dd = 10;//8子节
+    printf("num:%d--&num:%d--longNum:%d--ff:%d--dd:%d\n",sizeof(num),sizeof(&num),sizeof(longNum),sizeof(ff),sizeof(dd));
+    
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -56,6 +80,10 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < 10; i++) {
         printf("%d\n",array[i]);
     }
+    
+    
+    char arrr[5] = {2};
+    baseType(arrr);
 
     return 0;
 }

@@ -10,7 +10,7 @@
 
 
 
-void swap(SqList L, int postion1 , int postion2) {
+void swap_(SqList L, int postion1 , int postion2) {
     if (L->length-1 < postion1 || L->length-1 < postion2) {
         return;
     }
@@ -56,7 +56,7 @@ void heapSort(SqList L) {
     
     for (i = L->length; i > 1; i--) {
         //将堆顶节点与列表最后一个节点交换
-        swap(L, 1, i);
+        swap_(L, 1, i);
         //将i-1个数据重新构建大顶堆
         HeapAdjust(L, 1, i-1);
     }
