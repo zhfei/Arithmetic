@@ -11,6 +11,7 @@
 		9110D26321A85BA7000F1E73 /* SortBinTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9110D26221A85BA7000F1E73 /* SortBinTree.c */; };
 		9118F46621EA356200722E84 /* Test0.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46521EA356200722E84 /* Test0.c */; };
 		9118F46A21EA409D00722E84 /* Test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46921EA409D00722E84 /* Test1.c */; };
+		9118F46D21EA48C100722E84 /* Test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46C21EA48C100722E84 /* Test2.c */; };
 		914A2B64219B153400BFDD9F /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B63219B153400BFDD9F /* LinkList.c */; };
 		914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B66219B198A00BFDD9F /* DoubleLinkList.c */; };
 		915359392199B8FE0018DEE5 /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 915359382199B8FE0018DEE5 /* SequenceList.c */; };
@@ -56,6 +57,8 @@
 		9118F46721EA3F1300722E84 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		9118F46821EA409D00722E84 /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
 		9118F46921EA409D00722E84 /* Test1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test1.c; sourceTree = "<group>"; };
+		9118F46B21EA48C100722E84 /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		9118F46C21EA48C100722E84 /* Test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test2.c; sourceTree = "<group>"; };
 		914A2B62219B153400BFDD9F /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		914A2B63219B153400BFDD9F /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
 		914A2B65219B198A00BFDD9F /* DoubleLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleLinkList.h; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				9118F46721EA3F1300722E84 /* Test.h */,
 				9118F46821EA409D00722E84 /* Test1.h */,
 				9118F46921EA409D00722E84 /* Test1.c */,
+				9118F46B21EA48C100722E84 /* Test2.h */,
+				9118F46C21EA48C100722E84 /* Test2.c */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9118F46D21EA48C100722E84 /* Test2.c in Sources */,
 				9118F46621EA356200722E84 /* Test0.c in Sources */,
 				91A5723421AC4681006EB8CB /* HeapSort.c in Sources */,
 				91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */,
