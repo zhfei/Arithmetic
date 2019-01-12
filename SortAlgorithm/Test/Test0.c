@@ -11,13 +11,13 @@
 
 #include "Test0.h"
 
-void swap(int k[], int low, int heigh) {
+void tSwap(int k[], int low, int heigh) {
     int temp = k[low];
     k[low] = k[heigh];
     k[heigh] = temp;
 }
 // 获得第一元素的位置
-int Position(int k[], int low, int heigh) {
+int tPosition(int k[], int low, int heigh) {
     int point;
     point = k[low];
     
@@ -26,25 +26,25 @@ int Position(int k[], int low, int heigh) {
             heigh--;
         }
         
-        swap(k, low, heigh);
+        tSwap(k, low, heigh);
         
         while (low < heigh && k[low] <= point) {
             low++;
         }
         
-        swap(k, low, heigh);
+        tSwap(k, low, heigh);
     }
     
     return low;
 }
 
 //快排
-void quickSortTest(int k[], int low, int heigh) {
+void tquickSortTest(int k[], int low, int heigh) {
     if (low < heigh) {
-        int pos = Position(k, low, heigh);
+        int pos = tPosition(k, low, heigh);
         //不断根据拿到的位置分割，进行递归
-        quickSortTest(k, low, pos-1);
-        quickSortTest(k, pos+1, heigh);
+        tquickSortTest(k, low, pos-1);
+        tquickSortTest(k, pos+1, heigh);
     }
     
     

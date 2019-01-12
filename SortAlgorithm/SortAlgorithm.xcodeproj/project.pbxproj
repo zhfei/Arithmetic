@@ -12,6 +12,7 @@
 		9118F46621EA356200722E84 /* Test0.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46521EA356200722E84 /* Test0.c */; };
 		9118F46A21EA409D00722E84 /* Test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46921EA409D00722E84 /* Test1.c */; };
 		9118F46D21EA48C100722E84 /* Test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46C21EA48C100722E84 /* Test2.c */; };
+		9118F47021EA4B5900722E84 /* Test3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46F21EA4B5900722E84 /* Test3.c */; };
 		914A2B64219B153400BFDD9F /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B63219B153400BFDD9F /* LinkList.c */; };
 		914A2B67219B198A00BFDD9F /* DoubleLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 914A2B66219B198A00BFDD9F /* DoubleLinkList.c */; };
 		915359392199B8FE0018DEE5 /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 915359382199B8FE0018DEE5 /* SequenceList.c */; };
@@ -59,6 +60,8 @@
 		9118F46921EA409D00722E84 /* Test1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test1.c; sourceTree = "<group>"; };
 		9118F46B21EA48C100722E84 /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
 		9118F46C21EA48C100722E84 /* Test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test2.c; sourceTree = "<group>"; };
+		9118F46E21EA4B5900722E84 /* Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3.h; sourceTree = "<group>"; };
+		9118F46F21EA4B5900722E84 /* Test3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test3.c; sourceTree = "<group>"; };
 		914A2B62219B153400BFDD9F /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		914A2B63219B153400BFDD9F /* LinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
 		914A2B65219B198A00BFDD9F /* DoubleLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleLinkList.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				9118F46921EA409D00722E84 /* Test1.c */,
 				9118F46B21EA48C100722E84 /* Test2.h */,
 				9118F46C21EA48C100722E84 /* Test2.c */,
+				9118F46E21EA4B5900722E84 /* Test3.h */,
+				9118F46F21EA4B5900722E84 /* Test3.c */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -390,6 +395,7 @@
 				91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */,
 				9118F46A21EA409D00722E84 /* Test1.c in Sources */,
 				9170E7F721A17FB500E41D8A /* QueueList.c in Sources */,
+				9118F47021EA4B5900722E84 /* Test3.c in Sources */,
 				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
 				9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */,
 				9170E7F621A17FB500E41D8A /* Queue.c in Sources */,
