@@ -19,7 +19,7 @@
 #include "LinkList.h"
 #include "DoubleLinkList.h"
 #include "Test3.h"
-
+#include "Test6.h"
 
 void baseType(char arrr[]) {
     
@@ -88,6 +88,9 @@ int main(int argc, const char * argv[]) {
     
     int re = fibonacci(4);
     printf("斐波那契:%d\n",re);
+    
+    char *str = "hello world";
+    reversStr(str);
 
     return 0;
 }
