@@ -17,6 +17,10 @@ typedef struct Node {
 }Node,*pNode;
 
 void reversalTree(pNode tree) {
+    if (tree == NULL) {
+        return;
+    }
+    
     if (tree->left == NULL) {
         return;
     }
