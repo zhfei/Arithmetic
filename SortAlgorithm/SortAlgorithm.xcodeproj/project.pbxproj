@@ -37,6 +37,7 @@
 		91D1839D215CB02F00240AE2 /* BinarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D1839B215CB02F00240AE2 /* BinarySearch.c */; };
 		91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 91E9597D219DC10300FE3EEA /* StaticLinkList.c */; };
 		91EE999021ECE3960070BD7A /* Test7.c in Sources */ = {isa = PBXBuildFile; fileRef = 91EE998F21ECE3960070BD7A /* Test7.c */; };
+		91EE999321ECEA4A0070BD7A /* Test8.c in Sources */ = {isa = PBXBuildFile; fileRef = 91EE999221ECEA4A0070BD7A /* Test8.c */; };
 		91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 91F4B3D321A5B5CF00A41095 /* BinThreadTree.c */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +115,8 @@
 		91E9597D219DC10300FE3EEA /* StaticLinkList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StaticLinkList.c; sourceTree = "<group>"; };
 		91EE998E21ECE3960070BD7A /* Test7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test7.h; sourceTree = "<group>"; };
 		91EE998F21ECE3960070BD7A /* Test7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test7.c; sourceTree = "<group>"; };
+		91EE999121ECEA4A0070BD7A /* Test8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test8.h; sourceTree = "<group>"; };
+		91EE999221ECEA4A0070BD7A /* Test8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test8.c; sourceTree = "<group>"; };
 		91F4B3D221A5B5CF00A41095 /* BinThreadTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinThreadTree.h; sourceTree = "<group>"; };
 		91F4B3D321A5B5CF00A41095 /* BinThreadTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinThreadTree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +161,8 @@
 				91AC641021EB8AC9002AAC62 /* Test6.c */,
 				91EE998E21ECE3960070BD7A /* Test7.h */,
 				91EE998F21ECE3960070BD7A /* Test7.c */,
+				91EE999121ECEA4A0070BD7A /* Test8.h */,
+				91EE999221ECEA4A0070BD7A /* Test8.c */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 				91AC641121EB8AC9002AAC62 /* Test6.c in Sources */,
 				91D0F28A2083174B00109EA0 /* ShellSort.c in Sources */,
 				9118F46A21EA409D00722E84 /* Test1.c in Sources */,
+				91EE999321ECEA4A0070BD7A /* Test8.c in Sources */,
 				9170E7F721A17FB500E41D8A /* QueueList.c in Sources */,
 				9118F47021EA4B5900722E84 /* Test3.c in Sources */,
 				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
