@@ -28,6 +28,10 @@ void reversalStr2(char str[]) {
     printf("%s",str);
 }
 //归并排序
+//利用数组第一个元素的指针和数组长度，将数组平均分成两部分。获得4个变量
+//第一部分的首指针和长度。第二部分的首指针和长度。
+//合并时，用两部分数组分别去下标元素进行比较，3个while后，合并到一个tmp数组中
+//最后讲tmp数组的内容逐个填写到array1上。
 static int arrayLength = 10;
 void mergerAction2(int array1[], int length1, int array2[], int length2) {
     int i,j,k,m;
@@ -50,10 +54,9 @@ void mergerAction2(int array1[], int length1, int array2[], int length2) {
         tmp[k++] = array2[j++];
     }
     
-//    for (<#initialization#>; <#condition#>; <#increment#>) {
-//        <#statements#>
-//    }
-    
+    for (m = 0; m < (length1 + length2); m++) {
+        array1[m] = tmp[m];
+    }
 }
 
 void mergerArray2(int numArray[], int length) {
