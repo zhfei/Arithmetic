@@ -39,3 +39,25 @@ void selectSort2(int array2[], int length) {
         }
     }
 }
+
+//将单向链表逆序
+
+typedef struct Node {
+    int data;
+    struct Node *next;
+}Node,*pNode;
+
+void reversalList2(pNode pRoot) {
+    if (pRoot->next == NULL) {
+        
+        return;
+    }
+    
+    pNode p1 = pRoot;
+    pNode p2 = p1->next;
+    pNode p2N = p2->next;
+    
+    p1->next = p2N;
+    p2->next = p1;
+    
+}
