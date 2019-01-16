@@ -8,6 +8,8 @@
 //  一道分解数字 为十位与个位的乘积的面试题
 
 #include "Test8.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 int resolveNum(int num) {
     int left = num/10;
@@ -47,17 +49,61 @@ typedef struct Node {
     struct Node *next;
 }Node,*pNode;
 
-void reversalList2(pNode pRoot) {
-    if (pRoot->next == NULL) {
+pNode createLinkList(int length) {
+    if (length <= 0) {
+        return NULL;
+    }
+    
+    Node *head, *tmp, *last;
+    int num = 1;
+    head = (pNode)malloc(sizeof(Node));
+    head->data = 0;
+    last = head;
+    
+    while (++num < length) {
+        tmp = (pNode)malloc(sizeof(Node));
+        tmp->data = num;
+        tmp->next = NULL;
+        last->next = tmp;
         
+        last = tmp;
+    }
+    
+    return head;
+}
+
+void printLinkList(pNode head) {
+    if (head == NULL) {
         return;
     }
     
-    pNode p1 = pRoot;
-    pNode p2 = p1->next;
-    pNode p2N = p2->next;
-    
-    p1->next = p2N;
-    p2->next = p1;
+    pNode tmp = head;
+    while (tmp != NULL) {
+        printf("%d",tmp->data);
+        tmp = tmp->next;
+    }
+}
+
+//图像表示，链表开始：head->p->q->1->3
+
+void reversalList2(pNode pRoot) {
+    if (pRoot == NULL) {
+        return;
+    }
+    Node *head, *p, *q;
+    head = pRoot;
+    p = NULL;
+    while (head->next != NULL) {
+        p = head->next;
+        q = p->next;
+        
+        p->next = q->next;
+        q->next = head->next;
+        head->next = q;
+    }
+    //创建循环
+    q->next = head;
+    //断开循环
+    head->next = NULL;
     
 }
