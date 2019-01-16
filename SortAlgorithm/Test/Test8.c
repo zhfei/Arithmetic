@@ -19,3 +19,23 @@ int resolveNum(int num) {
     }
     return num;
 }
+
+
+//选择排序
+void selectSort2(int array2[], int length) {
+    
+    int index = 0;
+    for (int i = 0; i < length; i++) {
+        for (int j = length - 1; j > i; j--) {
+            if (array2[j] < array2[j-1]) {
+                index = j;
+            }
+            
+            if (index > i) {
+                int temp = array2[index];
+                array2[index] = array2[i];
+                array2[i] = temp;
+            }
+        }
+    }
+}

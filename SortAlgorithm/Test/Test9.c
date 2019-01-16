@@ -69,3 +69,8 @@ void mergerArray2(int numArray[], int length) {
         
     }
 }
+
+
+
+
+
