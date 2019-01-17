@@ -43,7 +43,8 @@ void selectSort2(int array2[], int length) {
 }
 
 //将单向链表逆序
-
+//创建链表时，使用三个节点指针，1个头指针，一个尾指针，一个临时指针
+//头指针作为记录，尾指针作为新生产节点的链接节点。临时指针持有生成的新节点。
 typedef struct Node {
     int data;
     struct Node *next;
@@ -85,15 +86,16 @@ void printLinkList(pNode head) {
 }
 
 //图像表示，链表开始：head->p->q->1->3
-
+//同样适应三个指针，一个头节点，一个处理反转的目标节点像P节点，要将它的next节点反转到head的后面
+//一个时要反转的节点，像q节点，将q放到head的后面
 void reversalList2(pNode pRoot) {
     if (pRoot == NULL) {
         return;
     }
     Node *head, *p, *q;
     head = pRoot;
-    p = NULL;
-    while (head->next != NULL) {
+    p = head;
+    while (p->next != NULL) {
         p = head->next;
         q = p->next;
         
@@ -105,5 +107,4 @@ void reversalList2(pNode pRoot) {
     q->next = head;
     //断开循环
     head->next = NULL;
-    
 }
