@@ -10,7 +10,10 @@
 //给定一个字符串，输出本字符串中只出现一次并且最靠前的那个字符的位置？如“abaccddeeef”,
 //字符是b,输出应该是2
 
-
+//比较方法
+//传如一个字符和 字符串指针
+//利用while循环，将指针逐个增加与这个字符进行比较
+//若有一次相等，就返回1，其他的都返回0
 int conditionChar(char targetC, char * str) {
     
     int count = 0;
@@ -28,6 +31,8 @@ int conditionChar(char targetC, char * str) {
     }
 }
 
+//取出字符指针的开始的每个字符，同整个字符川进行比较。
+//将每一个只出现了一次的结果存在一个数组中，最后打印。
 void printResult(char *pStr) {
     char c = *pStr;
     char *p = pStr;
