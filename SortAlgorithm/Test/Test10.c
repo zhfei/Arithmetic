@@ -1,0 +1,53 @@
+//
+//  Test10.c
+//  SortAlgorithm
+//
+//  Created by zhoufei on 2019/1/17.
+//  Copyright © 2019年 周飞. All rights reserved.
+//
+
+#include "Test10.h"
+//给定一个字符串，输出本字符串中只出现一次并且最靠前的那个字符的位置？如“abaccddeeef”,
+//字符是b,输出应该是2
+
+
+int conditionChar(char targetC, char * str) {
+    
+    int count = 0;
+    while (*str != "\0") {
+        if (targetC == *str) {
+            count++;
+        }
+        str++;
+    }
+    
+    if (count == 1) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+void printResult(char *pStr) {
+    char c = *pStr;
+    char *p = pStr;
+    
+    int arr[100];
+    int index = 0;
+    
+    while (*p != "\0") {
+        if (conditionChar(c, pStr) == 1) {
+            arr[index] = c;
+            index++;
+        }
+        c = *(p++);
+    }
+    
+    int count = 0;
+    while (arr[0] != *p) {
+        p++;
+        count++;
+    }
+    
+    printf("%d",count);
+}
