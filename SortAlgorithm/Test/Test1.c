@@ -11,7 +11,7 @@
 
 
 #include "Test1.h"
-
+//冒泡排序
 void bubblingSort(int array[], int count) {
     for (int i = 0; i < count; i++) {
         for (int j = count - 1; j > i; j--) {
