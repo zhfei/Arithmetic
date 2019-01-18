@@ -7,6 +7,8 @@
 //
 
 #include "Test12.h"
+#include <stdio.h>
+
 // 不用中间变量，用两种方法交换两个数的值
 //+,-法交换
 void exchangeNum1(int a, int b) {
@@ -43,6 +45,58 @@ void commonDivisor3(int a, int b) {
         if (a % num == 0 && b % num == 0) {
             result = num;
         }
+    }
+}
+
+
+//----------------------------------------------------------
+//模拟栈操作
+//1.先定义一个栈
+#define stackMax 1024
+static int stack[stackMax];
+static int count = 0;
+
+void push(int num) {
+    if (count >= stackMax) {
+        printf("栈满了！");
+    } else {
+        stack[count++] = num;
+    }
+}
+
+int pop(){
+    if (count <= 0) {
+        printf("空栈了！");
+        return 0;
+    } else {
+        return stack[count--];
+    }
+}
+
+int top(){
+    if (count <= 0) {
+        printf("空栈了！");
+        return 0;
+    } else {
+        return stack[count--];
+    }
+}
+
+int isEmpty() {
+    if (count <= 0) {
+        printf("空栈了！");
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int isFill() {
+    if (count == stackMax) {
+        printf("满栈了！");
+        return 1;
+    } else {
+        return 0;
     }
 }
 
