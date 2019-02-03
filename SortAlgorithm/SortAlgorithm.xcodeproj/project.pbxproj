@@ -28,6 +28,7 @@
 		918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90422073D8900DD2240 /* Fibonacci Implementation.c */; };
 		918EB907220740E600DD2240 /* Binary Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB906220740E600DD2240 /* Binary Search.c */; };
 		918EB9092207448C00DD2240 /* Is Prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB9082207448C00DD2240 /* Is Prime.c */; };
+		918EB90C220746F500DD2240 /* Is Power Of Two.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90B220746F500DD2240 /* Is Power Of Two.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		919E749E21EE329F00F7F62D /* Test9.c in Sources */ = {isa = PBXBuildFile; fileRef = 919E749D21EE329F00F7F62D /* Test9.c */; };
 		91A5723421AC4681006EB8CB /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5723321AC4681006EB8CB /* HeapSort.c */; };
@@ -101,6 +102,8 @@
 		918EB90422073D8900DD2240 /* Fibonacci Implementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Fibonacci Implementation.c"; sourceTree = "<group>"; };
 		918EB906220740E600DD2240 /* Binary Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary Search.c"; sourceTree = "<group>"; };
 		918EB9082207448C00DD2240 /* Is Prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Is Prime.c"; sourceTree = "<group>"; };
+		918EB90A220746F500DD2240 /* Is Power Of Two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Is Power Of Two.h"; sourceTree = "<group>"; };
+		918EB90B220746F500DD2240 /* Is Power Of Two.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Is Power Of Two.c"; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		919E749C21EE329F00F7F62D /* Test9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9.h; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 				918EB90422073D8900DD2240 /* Fibonacci Implementation.c */,
 				918EB906220740E600DD2240 /* Binary Search.c */,
 				918EB9082207448C00DD2240 /* Is Prime.c */,
+				918EB90A220746F500DD2240 /* Is Power Of Two.h */,
+				918EB90B220746F500DD2240 /* Is Power Of Two.c */,
 			);
 			path = "数学的实现";
 			sourceTree = "<group>";
@@ -452,6 +457,7 @@
 			files = (
 				9118F46D21EA48C100722E84 /* Test2.c in Sources */,
 				9118F46621EA356200722E84 /* Test0.c in Sources */,
+				918EB90C220746F500DD2240 /* Is Power Of Two.c in Sources */,
 				9152863321F0CDA60004AB3A /* Test11.c in Sources */,
 				918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */,
 				91A5723421AC4681006EB8CB /* HeapSort.c in Sources */,
