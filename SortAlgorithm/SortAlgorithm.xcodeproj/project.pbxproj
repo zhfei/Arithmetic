@@ -25,6 +25,8 @@
 		9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7EF21A17ABA00E41D8A /* BinaryTree.c */; };
 		9170E7F621A17FB500E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F321A17FB500E41D8A /* Queue.c */; };
 		9170E7F721A17FB500E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F421A17FB500E41D8A /* QueueList.c */; };
+		918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90422073D8900DD2240 /* Fibonacci Implementation.c */; };
+		918EB907220740E600DD2240 /* Binary Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB906220740E600DD2240 /* Binary Search.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		919E749E21EE329F00F7F62D /* Test9.c in Sources */ = {isa = PBXBuildFile; fileRef = 919E749D21EE329F00F7F62D /* Test9.c */; };
 		91A5723421AC4681006EB8CB /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5723321AC4681006EB8CB /* HeapSort.c */; };
@@ -95,6 +97,8 @@
 		9170E7F321A17FB500E41D8A /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		9170E7F421A17FB500E41D8A /* QueueList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QueueList.c; sourceTree = "<group>"; };
 		9170E7F521A17FB500E41D8A /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		918EB90422073D8900DD2240 /* Fibonacci Implementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Fibonacci Implementation.c"; sourceTree = "<group>"; };
+		918EB906220740E600DD2240 /* Binary Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary Search.c"; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		919E749C21EE329F00F7F62D /* Test9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9.h; sourceTree = "<group>"; };
@@ -257,6 +261,23 @@
 			path = "队列";
 			sourceTree = "<group>";
 		};
+		918EB90122073C5F00DD2240 /* 算法题目与解题方法 */ = {
+			isa = PBXGroup;
+			children = (
+				918EB90222073C9E00DD2240 /* 数学的实现 */,
+			);
+			path = "算法题目与解题方法";
+			sourceTree = "<group>";
+		};
+		918EB90222073C9E00DD2240 /* 数学的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				918EB90422073D8900DD2240 /* Fibonacci Implementation.c */,
+				918EB906220740E600DD2240 /* Binary Search.c */,
+			);
+			path = "数学的实现";
+			sourceTree = "<group>";
+		};
 		91938082219DC78500194F71 /* 栈 */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +303,7 @@
 		91D0F26C2083146000109EA0 = {
 			isa = PBXGroup;
 			children = (
+				918EB90122073C5F00DD2240 /* 算法题目与解题方法 */,
 				9118F46321EA34BB00722E84 /* Test */,
 				915359332199B66A0018DEE5 /* DataStructure */,
 				91D0F2772083146000109EA0 /* SortAlgorithm */,
@@ -428,6 +450,7 @@
 				9118F46D21EA48C100722E84 /* Test2.c in Sources */,
 				9118F46621EA356200722E84 /* Test0.c in Sources */,
 				9152863321F0CDA60004AB3A /* Test11.c in Sources */,
+				918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */,
 				91A5723421AC4681006EB8CB /* HeapSort.c in Sources */,
 				919E749E21EE329F00F7F62D /* Test9.c in Sources */,
 				91D0F2872083174B00109EA0 /* BubblingSort.c in Sources */,
@@ -436,6 +459,7 @@
 				91D0F292208357AC00109EA0 /* QuickSort.c in Sources */,
 				91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */,
 				9110D26321A85BA7000F1E73 /* SortBinTree.c in Sources */,
+				918EB907220740E600DD2240 /* Binary Search.c in Sources */,
 				91EE999021ECE3960070BD7A /* Test7.c in Sources */,
 				915359392199B8FE0018DEE5 /* SequenceList.c in Sources */,
 				91D0F2892083174B00109EA0 /* SelectSort.c in Sources */,
