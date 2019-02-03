@@ -27,6 +27,7 @@
 		9170E7F721A17FB500E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F421A17FB500E41D8A /* QueueList.c */; };
 		918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90422073D8900DD2240 /* Fibonacci Implementation.c */; };
 		918EB907220740E600DD2240 /* Binary Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB906220740E600DD2240 /* Binary Search.c */; };
+		918EB9092207448C00DD2240 /* Is Prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB9082207448C00DD2240 /* Is Prime.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
 		919E749E21EE329F00F7F62D /* Test9.c in Sources */ = {isa = PBXBuildFile; fileRef = 919E749D21EE329F00F7F62D /* Test9.c */; };
 		91A5723421AC4681006EB8CB /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5723321AC4681006EB8CB /* HeapSort.c */; };
@@ -99,6 +100,7 @@
 		9170E7F521A17FB500E41D8A /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		918EB90422073D8900DD2240 /* Fibonacci Implementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Fibonacci Implementation.c"; sourceTree = "<group>"; };
 		918EB906220740E600DD2240 /* Binary Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary Search.c"; sourceTree = "<group>"; };
+		918EB9082207448C00DD2240 /* Is Prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Is Prime.c"; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 		919E749C21EE329F00F7F62D /* Test9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9.h; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			children = (
 				918EB90422073D8900DD2240 /* Fibonacci Implementation.c */,
 				918EB906220740E600DD2240 /* Binary Search.c */,
+				918EB9082207448C00DD2240 /* Is Prime.c */,
 			);
 			path = "数学的实现";
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				91FA8C3A21F20350000A8631 /* Test12.c in Sources */,
 				9118F47021EA4B5900722E84 /* Test3.c in Sources */,
 				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
+				918EB9092207448C00DD2240 /* Is Prime.c in Sources */,
 				9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */,
 				9152863021F0C6F40004AB3A /* Test10.c in Sources */,
 				9170E7F621A17FB500E41D8A /* Queue.c in Sources */,
