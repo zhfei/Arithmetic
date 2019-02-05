@@ -8,7 +8,8 @@
 //  斐波那契数列(兔子数列)实现
 //  1、1、2、3、5、8、13
 
-#include "Fibonacci Implementation.h"
+#include <stdio.h>
+
 //计算斐波那契数列第n天时，有多少个兔子
 int fibonacci(int n) {
     if (n < 2) {
