@@ -32,6 +32,7 @@
 		918EB90C220746F500DD2240 /* Is Power Of Two.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90B220746F500DD2240 /* Is Power Of Two.c */; };
 		918EB90E22074AC200DD2240 /* Is Power Of Three.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90D22074AC200DD2240 /* Is Power Of Three.c */; };
 		91938085219DC8A300194F71 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 91938084219DC8A300194F71 /* Stack.c */; };
+		9198D514220B3A3D00024755 /* ArrayUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9198D512220B3A3D00024755 /* ArrayUtil.cpp */; };
 		919E749E21EE329F00F7F62D /* Test9.c in Sources */ = {isa = PBXBuildFile; fileRef = 919E749D21EE329F00F7F62D /* Test9.c */; };
 		91A5723421AC4681006EB8CB /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A5723321AC4681006EB8CB /* HeapSort.c */; };
 		91AC640B21EB826E002AAC62 /* Test4.c in Sources */ = {isa = PBXBuildFile; fileRef = 91AC640A21EB826E002AAC62 /* Test4.c */; };
@@ -110,6 +111,8 @@
 		918EB90D22074AC200DD2240 /* Is Power Of Three.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Is Power Of Three.c"; sourceTree = "<group>"; };
 		91938083219DC8A300194F71 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		91938084219DC8A300194F71 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		9198D512220B3A3D00024755 /* ArrayUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayUtil.cpp; sourceTree = "<group>"; };
+		9198D513220B3A3D00024755 /* ArrayUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayUtil.hpp; sourceTree = "<group>"; };
 		919E749C21EE329F00F7F62D /* Test9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test9.h; sourceTree = "<group>"; };
 		919E749D21EE329F00F7F62D /* Test9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test9.c; sourceTree = "<group>"; };
 		91A5723221AC4681006EB8CB /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
@@ -275,6 +278,7 @@
 		918EB90122073C5F00DD2240 /* 算法题目与解题方法 */ = {
 			isa = PBXGroup;
 			children = (
+				9198D511220B399700024755 /* 算法实现题 */,
 				91D5D02D2209E53D0065F484 /* 链表相关问题 */,
 				918EB90222073C9E00DD2240 /* 数学的实现 */,
 			);
@@ -305,6 +309,15 @@
 				9170E7D3219FF9F600E41D8A /* LinkStack.c */,
 			);
 			path = "栈";
+			sourceTree = "<group>";
+		};
+		9198D511220B399700024755 /* 算法实现题 */ = {
+			isa = PBXGroup;
+			children = (
+				9198D512220B3A3D00024755 /* ArrayUtil.cpp */,
+				9198D513220B3A3D00024755 /* ArrayUtil.hpp */,
+			);
+			path = "算法实现题";
 			sourceTree = "<group>";
 		};
 		91A5723121AC4630006EB8CB /* 堆排序 */ = {
@@ -499,6 +512,7 @@
 				91EE999321ECEA4A0070BD7A /* Test8.c in Sources */,
 				9170E7F721A17FB500E41D8A /* QueueList.c in Sources */,
 				91FA8C3A21F20350000A8631 /* Test12.c in Sources */,
+				9198D514220B3A3D00024755 /* ArrayUtil.cpp in Sources */,
 				9118F47021EA4B5900722E84 /* Test3.c in Sources */,
 				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
 				918EB9092207448C00DD2240 /* Is Prime.c in Sources */,
