@@ -26,6 +26,7 @@
 		9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7EF21A17ABA00E41D8A /* BinaryTree.c */; };
 		9170E7F621A17FB500E41D8A /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F321A17FB500E41D8A /* Queue.c */; };
 		9170E7F721A17FB500E41D8A /* QueueList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7F421A17FB500E41D8A /* QueueList.c */; };
+		917889C6220C894000A7D16E /* cppSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 917889C4220C894000A7D16E /* cppSort.cpp */; };
 		918EB90522073D8900DD2240 /* Fibonacci Implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB90422073D8900DD2240 /* Fibonacci Implementation.c */; };
 		918EB907220740E600DD2240 /* Binary Search.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB906220740E600DD2240 /* Binary Search.c */; };
 		918EB9092207448C00DD2240 /* Is Prime.c in Sources */ = {isa = PBXBuildFile; fileRef = 918EB9082207448C00DD2240 /* Is Prime.c */; };
@@ -104,6 +105,8 @@
 		9170E7F321A17FB500E41D8A /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
 		9170E7F421A17FB500E41D8A /* QueueList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QueueList.c; sourceTree = "<group>"; };
 		9170E7F521A17FB500E41D8A /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		917889C4220C894000A7D16E /* cppSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppSort.cpp; sourceTree = "<group>"; };
+		917889C5220C894000A7D16E /* cppSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cppSort.hpp; sourceTree = "<group>"; };
 		918EB90422073D8900DD2240 /* Fibonacci Implementation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Fibonacci Implementation.c"; sourceTree = "<group>"; };
 		918EB906220740E600DD2240 /* Binary Search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Binary Search.c"; sourceTree = "<group>"; };
 		918EB9082207448C00DD2240 /* Is Prime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Is Prime.c"; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 			children = (
 				9198D512220B3A3D00024755 /* ArrayUtil.cpp */,
 				9198D513220B3A3D00024755 /* ArrayUtil.hpp */,
+				917889C4220C894000A7D16E /* cppSort.cpp */,
+				917889C5220C894000A7D16E /* cppSort.hpp */,
 			);
 			path = "算法实现题";
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 				91D0F292208357AC00109EA0 /* QuickSort.c in Sources */,
 				91E9597E219DC10300FE3EEA /* StaticLinkList.c in Sources */,
 				9110D26321A85BA7000F1E73 /* SortBinTree.c in Sources */,
+				917889C6220C894000A7D16E /* cppSort.cpp in Sources */,
 				918EB907220740E600DD2240 /* Binary Search.c in Sources */,
 				91EE999021ECE3960070BD7A /* Test7.c in Sources */,
 				915359392199B8FE0018DEE5 /* SequenceList.c in Sources */,
