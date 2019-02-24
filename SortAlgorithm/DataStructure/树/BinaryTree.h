@@ -24,5 +24,7 @@ typedef struct BTNode {
 State preOrderTraverse(BTNode *T);
 //中序遍历递归算法
 State inOrderTraverse(BTNode *T);
+//后序遍历递归算法
+State postOrderTraverse(BTNode *T);
 
 #endif /* BinaryTree_h */
