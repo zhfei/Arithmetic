@@ -19,6 +19,7 @@
 		9152863021F0C6F40004AB3A /* Test10.c in Sources */ = {isa = PBXBuildFile; fileRef = 9152862F21F0C6F40004AB3A /* Test10.c */; };
 		9152863321F0CDA60004AB3A /* Test11.c in Sources */ = {isa = PBXBuildFile; fileRef = 9152863221F0CDA60004AB3A /* Test11.c */; };
 		915359392199B8FE0018DEE5 /* SequenceList.c in Sources */ = {isa = PBXBuildFile; fileRef = 915359382199B8FE0018DEE5 /* SequenceList.c */; };
+		916056222226D54B000B080A /* LeeCode.c in Sources */ = {isa = PBXBuildFile; fileRef = 916056212226D54B000B080A /* LeeCode.c */; };
 		9168F18421A7017100A7DF0D /* ZipAndUnZip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9168F18321A7017100A7DF0D /* ZipAndUnZip.c */; };
 		9170E7D1219FF40300E41D8A /* SqDoubleStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D0219FF40300E41D8A /* SqDoubleStack.c */; };
 		9170E7D4219FF9F600E41D8A /* LinkStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9170E7D3219FF9F600E41D8A /* LinkStack.c */; };
@@ -91,6 +92,8 @@
 		9152863221F0CDA60004AB3A /* Test11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test11.c; sourceTree = "<group>"; };
 		915359372199B8FE0018DEE5 /* SequenceList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequenceList.h; sourceTree = "<group>"; };
 		915359382199B8FE0018DEE5 /* SequenceList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SequenceList.c; sourceTree = "<group>"; };
+		916056202226D54B000B080A /* LeeCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeeCode.h; sourceTree = "<group>"; };
+		916056212226D54B000B080A /* LeeCode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeeCode.c; sourceTree = "<group>"; };
 		9168F18221A7017100A7DF0D /* ZipAndUnZip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipAndUnZip.h; sourceTree = "<group>"; };
 		9168F18321A7017100A7DF0D /* ZipAndUnZip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ZipAndUnZip.c; sourceTree = "<group>"; };
 		9170E7CF219FF40300E41D8A /* SqDoubleStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqDoubleStack.h; sourceTree = "<group>"; };
@@ -250,6 +253,15 @@
 			path = "链式存储结构";
 			sourceTree = "<group>";
 		};
+		9160561F2226D539000B080A /* LeeCode */ = {
+			isa = PBXGroup;
+			children = (
+				916056202226D54B000B080A /* LeeCode.h */,
+				916056212226D54B000B080A /* LeeCode.c */,
+			);
+			path = LeeCode;
+			sourceTree = "<group>";
+		};
 		9170E7DC21A0403100E41D8A /* 树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +349,7 @@
 		91D0F26C2083146000109EA0 = {
 			isa = PBXGroup;
 			children = (
+				9160561F2226D539000B080A /* LeeCode */,
 				918EB90122073C5F00DD2240 /* 算法题目与解题方法 */,
 				9118F46321EA34BB00722E84 /* Test */,
 				915359332199B66A0018DEE5 /* DataStructure */,
@@ -521,6 +534,7 @@
 				9198D514220B3A3D00024755 /* ArrayUtil.cpp in Sources */,
 				9118F47021EA4B5900722E84 /* Test3.c in Sources */,
 				91F4B3D421A5B5CF00A41095 /* BinThreadTree.c in Sources */,
+				916056222226D54B000B080A /* LeeCode.c in Sources */,
 				918EB9092207448C00DD2240 /* Is Prime.c in Sources */,
 				9170E7F021A17ABA00E41D8A /* BinaryTree.c in Sources */,
 				9152863021F0C6F40004AB3A /* Test10.c in Sources */,

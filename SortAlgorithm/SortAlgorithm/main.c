@@ -44,6 +44,24 @@ void baseType(char arrr[]) {
     
 }
 
+int* twoSum(int* nums, int numsSize, int target) {
+    for (int i = 0; i< numsSize; i++) {
+        int tmp = nums[i];
+        if (target > tmp) {
+            
+            for (int j = numsSize-1; j > i; j-- ) {
+                int tmpj = nums[j];
+                if (tmpj + tmp == target) {
+                    int arr[] = {i,j};
+                    return arr;
+                }
+            }
+            
+        }
+    }
+    return nums;
+}
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     
@@ -94,3 +112,5 @@ int main(int argc, const char * argv[]) {
 
     return 0;
 }
+
+
