@@ -82,3 +82,15 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     free(pn);
     return header;
 }
+
+
+//链表反转，递归方法
+void reverse_Node(pListNode next) {
+    if (next == NULL || next->next == NULL) {
+        return;
+    }
+    reverse_Node(next->next);
+    //最后两个节点的反转
+    next->next->next = next;
+    next->next = NULL;
+}
