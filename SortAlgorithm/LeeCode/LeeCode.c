@@ -94,3 +94,67 @@ void reverse_Node(pListNode next) {
     next->next->next = next;
     next->next = NULL;
 }
+
+
+//快速排序
+void quickSort_Lee(int array[], int start, int end) {
+    if (start < end) {
+        int i = start, j = end;
+        int base = array[i];
+        int temp;
+        
+        do {
+            while (array[i] < base && i < end) {
+                i++;
+            }
+            while (array[j] > base && j > start) {
+                j--;
+            }
+            
+            if (i <= j) {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        } while (i < j);
+        
+        quickSort_Lee(array, start, i);
+        quickSort_Lee(array, j, end);
+    }
+}
+
+//归并排序
+int* mergerSort_S(int leftArr[], int leftL, int rightArr[], int rightL) {
+//    int count = sizeof(leftArr) + sizeof(rightArr);
+    
+    int result[] = {0};
+    int p = 0;
+
+    int pL = 0;
+    int pR = 0;
+    
+    while (pL < leftL && pR < rightL) {
+        result[p++] = leftArr[pL] < rightArr[pR] ? leftArr[pL++] : rightArr[pR++];
+    }
+    while (pL < leftL) {
+        result[p++] = leftArr[pL++];
+    }
+    while (pR < rightL) {
+        result[p++] = rightArr[pR++];
+    }
+    
+    
+    return 0;
+}
+
+int * mergerSort_Lee(int array[], int left, int right) {
+    if (left >= right) {
+        return array;
+    }
+    int mid = (left + right)/2;
+    
+    int * leftA = mergerSort_Lee(array, left, mid);
+    int * rightA = mergerSort_Lee(array, mid+1, right);
+    
+    return  mergerSort_S(leftA, mid-left, rightA, right-(mid+1));
+}
