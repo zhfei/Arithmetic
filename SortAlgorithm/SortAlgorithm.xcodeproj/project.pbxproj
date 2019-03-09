@@ -10,6 +10,7 @@
 		9106642E208ACA9800F5F449 /* MargeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9106642C208ACA9800F5F449 /* MargeSort.c */; };
 		910D816722088A0F0036798C /* Count Primes.c in Sources */ = {isa = PBXBuildFile; fileRef = 910D816622088A0F0036798C /* Count Primes.c */; };
 		9110D26321A85BA7000F1E73 /* SortBinTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 9110D26221A85BA7000F1E73 /* SortBinTree.c */; };
+		9116A2082234046C009BF1BB /* LeeCodeTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 9116A2072234046C009BF1BB /* LeeCodeTest.c */; };
 		9118F46621EA356200722E84 /* Test0.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46521EA356200722E84 /* Test0.c */; };
 		9118F46A21EA409D00722E84 /* Test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46921EA409D00722E84 /* Test1.c */; };
 		9118F46D21EA48C100722E84 /* Test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 9118F46C21EA48C100722E84 /* Test2.c */; };
@@ -73,6 +74,7 @@
 		910D816622088A0F0036798C /* Count Primes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Count Primes.c"; sourceTree = "<group>"; };
 		9110D26121A85BA7000F1E73 /* SortBinTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortBinTree.h; sourceTree = "<group>"; };
 		9110D26221A85BA7000F1E73 /* SortBinTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SortBinTree.c; sourceTree = "<group>"; };
+		9116A2072234046C009BF1BB /* LeeCodeTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeeCodeTest.c; sourceTree = "<group>"; };
 		9118F46421EA356200722E84 /* Test0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test0.h; sourceTree = "<group>"; };
 		9118F46521EA356200722E84 /* Test0.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test0.c; sourceTree = "<group>"; };
 		9118F46721EA3F1300722E84 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 			children = (
 				916056202226D54B000B080A /* LeeCode.h */,
 				916056212226D54B000B080A /* LeeCode.c */,
+				9116A2072234046C009BF1BB /* LeeCodeTest.c */,
 			);
 			path = LeeCode;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9118F46D21EA48C100722E84 /* Test2.c in Sources */,
+				9116A2082234046C009BF1BB /* LeeCodeTest.c in Sources */,
 				9118F46621EA356200722E84 /* Test0.c in Sources */,
 				918EB90C220746F500DD2240 /* Is Power Of Two.c in Sources */,
 				9152863321F0CDA60004AB3A /* Test11.c in Sources */,
