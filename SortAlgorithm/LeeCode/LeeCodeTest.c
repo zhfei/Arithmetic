@@ -155,3 +155,45 @@ int * mergeSort9(int array[], int length) {
     
     return merge9(leftArr, leftCount, rightArr, rightCount);
 }
+
+typedef struct Node {
+    int data;
+    struct Node *left;
+    struct Node *right;
+    struct Node *next;
+}Node, *pNode;
+
+//二叉树反转
+void revertNode(pNode root) {
+    if (root == NULL) {
+        return;
+    }
+    
+    if (root->left == NULL && root->right == NULL) {
+        return;
+    }
+    
+    pNode tmp = root->left;
+    root->left = root->right;
+    root->right = tmp;
+    
+    revertNode(root->left);
+    revertNode(root->right);
+}
+
+//链表反转
+pNode reverList(pNode node){
+    
+    if (node == NULL || node->next == NULL) {
+        return node;
+    } else {
+        
+        pNode newHead = reverList(node->next);
+        
+        node->next->next = node;
+        node->next = NULL;
+        
+        
+        return newHead;
+    }
+}
